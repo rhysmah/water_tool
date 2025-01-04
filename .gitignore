@@ -1,0 +1,53 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.localized
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+*.o
+
+# Dependency directories
+/vendor/
+/bin/
+/pkg/
+
+# Test binary
+*.test
+
+# IDE/editor-specific files
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+
+# Vim swap files
+*.swp
+
+# Emacs backup files
+*~
+.#*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment and config files
+.env
+.env.local
+
+# Coverage files
+*.coverprofile
+*.cov
+coverage.out
+
+# Generated files
+gen/
